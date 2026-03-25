@@ -11,7 +11,7 @@ from PyQt6.QtCore import QProcess, Qt
 class MaraudersApp(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Marauders GenoMap - Dashboard v3.5 🧬")
+        self.setWindowTitle("Marauders GenoMap 🧬")
         self.resize(1200, 950)
         
         self.total_threads = os.cpu_count() or 4
